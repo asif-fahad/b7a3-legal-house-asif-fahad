@@ -85,8 +85,34 @@
                             </ul>
                         </li>
                     </ul>
-                    <button class="p-3 mb-2 bg-legal-color text-white border border-0 rounded">Free
-                        Consultation</button>
+                    
+                    <!-- Button trigger modal -->
+                    <button type="button" class="p-3 mb-2 bg-legal-color text-white border border-0 rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Free
+                        Consultation
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Free Consultation</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Programming Hero
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -380,37 +406,39 @@
     </main>
     <!-- footer  -->
     <footer class="mt-5 bg-dark">
-        <section class="container">
-            <div class="row">
+        <section class="container p-5">
+            <div class="row row-col-1 row-cols-md-4">
                 <div class="col-3">
-                    <div><img src="./images/logo2.png" alt=""></div>
+                    <div><img class="mb-3 w-100" src="./images/logo.png" alt=""></div>
                     <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the
                         majority have suffered
                         alteration in some form, by injected humour.</p>
                 </div>
                 <div class="col-3 text-white">
-                    <h3>Usefull Links</h3>
+                    <h3 class="mb-3">Usefull Links</h3>
                     <p>Homes</p>
-                    <p>About</p> 
-                    <p>Contact Us</p>
+                    <p>About Us</p>
                     <p>Cases</p>
                     <p>Blog</p>
                     <p>Contact Us</p>
-                    </div>
+                </div>
                 <div class="col-3 text-white">
-                    <h3>Contact Now</h3>
+                    <h3 class="mb-3">Contact Now</h3>
                     <p>555 4th 5t NW, Washington
                         DC 20530, United States</p>
                     <p>+88 01750 000 000
-                        +88 01750 000 000</p>
+                        <br> +88 01750 000 000
+                    </p>
                     <p>info@gmail.com
-                        info@gmail.com</p>
+                        <br> info@gmail.com
+                    </p>
                 </div>
                 <div class="col-3 text-white">
-                    <h4>Subscribe</h4>
-                    <p></p>
+                    <h4 class="mb-3">Subscribe</h4>
+                    <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
                     <form action="">
-                        
+                        <input type="email" name="" id="">
+                        <input type="submit" value="Submit">
                     </form>
                 </div>
         </section>
